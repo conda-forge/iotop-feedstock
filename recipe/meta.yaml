@@ -12,7 +12,7 @@ source:
 build:
   skip: True  # [not linux]
   script: make && make install PREFIX=$PREFIX && mv $PREFIX/sbin/iotop $PREFIX/bin/iotop
-  number: 0
+  number: 1
 
 requirements:
   build:
