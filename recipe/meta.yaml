@@ -1,5 +1,5 @@
 {% set name = "iotop" %}
-{% set version = "1.32" %}
+{% set version = "1.33" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Tomas-M/iotop/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 60d29ecb2156b949e2298470a6b9c7d7682ad031dfe8981181ea7876da11088d
+  sha256: 0aa859e481892cc5f8415549be16f599f68f0f8087c56692c16474bb49a7babe
 
 build:
   skip: true  # [not linux]
